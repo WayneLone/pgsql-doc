@@ -24,6 +24,7 @@ sidebar:
   docs:
     preorder: Preorder
     preface: Preface
+    intro_whatis: What is PostgreSQL?
     history: A Brief History of PostgreSQL
     notation: Conventions
     resources: Further Information
@@ -31,4 +32,102 @@ sidebar:
     parti: Part I
     tutorial: Tutorial
     tutorial_start: Getting Started
-
+    tutorial_sql: The SQL Language
+    tutorial_advanced: Advanced Features
+    partii: Part II
+    sql: The SQL Language
+    sql_syntax: SQL Syntax
+    ddl: Data Definition
+    dml: Data Manipulation
+    queries: Queries
+    datatype: Data Types
+    functions: Functions and Operators
+    typeconv: Type Conversion
+    indexes: Indexes
+    textsearch: Full Text Search
+    mvcc: Concurrency Control
+    performance_tips: Performance Tips
+    parallel_query: Parallel Query
+    partiii: Part III
+    admin: Server Administration
+    installation: Installation from Source Code
+    install_windows: Installation from Source Code on Windows
+    runtime: Server Setup and Operation
+    runtime_config: Server Configuration
+    client_authentication: Client Authentication
+    user_manag: Database Roles
+    managing_databases: Managing Databases
+    charset: Localization
+    maintenance: Routine Database Maintenance Tasks
+    backup: Backup and Restore
+    high_availability: High Availability, Load Balancing, and Replication
+    recovery_config: Recovery Configuration
+    monitoring: Monitoring Database Activity
+    diskusage: Monitoring Disk Usage
+    wal: Reliability and the Write-Ahead Log
+    logical_replication: Logical Replication
+    regress: Regression Tests
+    partiv: Part IV
+    client_interfaces: Client Interfaces
+    libpq: libpq - C Library
+    largeobjects: Large Objects
+    ecpg: ECPG - Embedded SQL in C
+    information_schema: The Information Schema
+    partv: Part V
+    server_programming: Server Programming
+    extend: Extending SQL
+    triggers: Triggers
+    event_triggers: Event Triggers
+    rules: The Rule System
+    xplang: Procedural Languages
+    plpgsql: PL/pgSQL - SQL Procedural Language
+    pltcl: PL/Tcl - Tcl Procedural Language
+    plperl: PL/Perl - Perl Procedural Language
+    plpython: PL/Python - Python Procedural Language
+    spi: Server Programming Interface
+    bgworker: Background Worker Processes
+    logicaldecoding: Logical Decoding
+    replication_origins: Replication Progress Tracking
+    partvi: Part VI
+    reference: Reference
+    sql_commands: SQL Commands
+    reference_client: PostgreSQL Client Applications
+    reference_server: PostgreSQL Server Applications
+    partvii: Part VII
+    internals: Internals
+    overview: Overview of PostgreSQL Internals
+    catalogs: System Catalogs
+    protocol: Frontend/Backend Protocol
+    source: PostgreSQL Coding Conventions
+    nls: Native Language Support
+    plhandler: Writing A Procedural Language Handler
+    fdwhandler: Writing A Foreign Data Wrapper
+    tablesample_method: Writing A Table Sampling Method
+    custom_scan: Writing A Custom Scan Provider
+    geqo: Genetic Query Optimizer
+    indexam: Index Access Method Interface Definition
+    generic_wal: Generic WAL Records
+    gist: GiST Indexes
+    spgist: SP-GiST Indexes
+    gin: GIN Indexes
+    brin: BRIN Indexes
+    storage: Database Physical Storage
+    bki: BKI Backend Interface
+    planner_stats_details: How the Planner Uses Statistics
+    partviii: Part VIII
+    appendixes: Appendixes
+    errcodes_appendix: PostgreSQL Error Codes
+    datetime_appendix: Date/Time Support
+    sql_keywords_appendix: SQL Key Words
+    features: SQL Conformance
+    release: Release Notes
+    contrib: Additional Supplied Modules
+    contrib_prog: Additional Supplied Programs
+    external_projects: External Projects
+    sourcerepo: The Source Code Repository
+    docguide: Documentation
+    acronyms: Acronyms
+    bibliography: Bibliography
+    biblio: Bibliography
+    book_index: Index
+    bookindex: Index

@@ -1,10 +1,110 @@
 docs:
   preorder:
-    preface: preface.html
-    history: history.html
-    notation: notation.html
-    resources: resources.html
-    bug_reporting: bug-reporting.html
+    preface: preface/preface.html
+    intro_whatis: preface/intro-whatis.html
+    history: preface/history.html
+    notation: preface/notation.html
+    resources: preface/resources.html
+    bug_reporting: preface/bug-reporting.html
   parti:
-    tutorial: tutorial.html
-    tutorial_start: tutorial-start.html
+    tutorial: tutorial/tutorial.html
+    tutorial_start: tutorial/tutorial-start.html
+    tutorial_sql: tutorial/tutorial-sql.html
+    tutorial_advanced: tutorial/tutorial-advanced.html
+  partii:
+    sql: sqlang/sql.html
+    sql_syntax: sqlang/sql-syntax.html
+    ddl: sqlang/ddl.html
+    dml: sqlang/dml.html
+    queries: sqlang/queries.html
+    datatype: sqlang/datatype.html
+    functions: sqlang/functions.html
+    typeconv: sqlang/typeconv.html
+    indexes: sqlang/indexes.html
+    textsearch: sqlang/textsearch.html
+    mvcc: sqlang/mvcc.html
+    performance_tips: sqlang/performance_tips.html
+    parallel_query: sqlang/parallel-query.html
+  partiii:
+    admin: admin/admin.html
+    installation: admin/installation.html
+    install_windows: admin/install-windows.html
+    runtime: admin/runtime.html
+    runtime_config: admin/runtime-config.html
+    client_authentication: admin/client-authentication.html
+    user_manag: admin/user-manag.html
+    managing_databases: admin/managing-databases.html
+    charset: admin/charset.html
+    maintenance: admin/maintenance.html
+    backup: admin/backup.html
+    high_availability: admin/high-availability.html
+    recovery_config: admin/recovery-config.html
+    monitoring: admin/monitoring.html
+    diskusage: admin/diskusage.html
+    wal: admin/wal.html
+    logical_replication: admin/logical-replication.html
+    regress: admin/regress.html
+  partiv:
+    client_interfaces: clientinterface/client-interfaces.html
+    libpq: clientinterface/libpq.html
+    largeobjects: clientinterface/largeobjects.html
+    ecpg: clientinterface/ecpg.html
+    information_schema: clientinterface/information-schema.html
+  partv:
+    server_programming: servercoding/server-programming.html
+    extend: servercoding/extend.html
+    triggers: servercoding/triggers.html
+    event_triggers: servercoding/event-triggers.html
+    rules: servercoding/rules.html
+    xplang: servercoding/xplang.html
+    plpgsql: servercoding/plpgsql.html
+    pltcl: servercoding/pltcl.html
+    plperl: servercoding/plperl.html
+    plpython: servercoding/plpython.html
+    spi: servercoding/spi.html
+    bgworker: servercoding/bgworker.html
+    logicaldecoding: servercoding/logicaldecoding.html
+    replication_origins: servercoding/replication-origins.html
+  partvi:
+    reference: reference/reference.html
+    sql_commands: reference/sql-commands.html
+    reference_client: reference/reference-client.html
+    reference_server: reference/reference-server.html
+  partvii:
+    internals: internals/internals.html
+    overview: internals/overview.html
+    catalogs: internals/catalogs.html
+    protocol: internals/protocol.html
+    source: internals/source.html
+    nls: internals/nls.html
+    plhandler: internals/plhandler.html
+    fdwhandler: internals/fdwhandler.html
+    tablesample_method: internals/tablesample-method.html
+    custom_scan: internals/custom-scan.html
+    geqo: internals/geqo.html
+    indexam: internals/indexam.html
+    generic_wal: internals/generic-wal.html
+    gist: internals/gist.html
+    spgist: internals/spgist.html
+    gin: internals/gin.html
+    brin: internals/brin.html
+    storage: internals/storage.html
+    bki: internals/bki.html
+    planner_stats_details: internals/planner-stats-details.html
+  partviii:
+    appendixes: appendixes/appendixes.html
+    errcodes_appendix: appendixes/errcodes-appendix.html
+    datetime_appendix: appendixes/datetime-appendix.html
+    sql_keywords_appendix: appendixes/sql-keywords-appendix.html
+    features: appendixes/features.html
+    release: appendixes/release.html
+    contrib: appendixes/contrib.html
+    contrib_prog: appendixes/contrib-prog.html
+    external_projects: appendixes/external-projects.html
+    sourcerepo: appendixes/sourcerepo.html
+    docguide: appendixes/docguide.html
+    acronyms: appendixes/acronyms.html
+  bibliography:
+    biblio: biblio/biblio.html
+  book_index:
+    bookindex: bookindex/bookindex.html

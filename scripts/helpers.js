@@ -12,9 +12,12 @@ const localizedPath = ['docs', 'api'];
 hexo.extend.helper.register('page_nav', function () {
   const type = this.page.canonical_path.split('/')[0];
   const sidebar = this.site.data.sidebar[type];
-  const path = basename(this.path);
+  const path = this.path.split(type + '/')[1];
   const list = {};
   const prefix = 'sidebar.' + type + '.';
+  const lang = this.page.lang;
+  const configLang = this.config.language;
+  const langDir = lang === configLang ? '/' + type + '/' : '/' + lang + '/' + type + '/';
 
   for (let i in sidebar) {
     for (let j in sidebar[i]) {
@@ -27,11 +30,11 @@ hexo.extend.helper.register('page_nav', function () {
   let result = '';
 
   if (index > 0) {
-    result += `<a href="${keys[index - 1]}" class="article-footer-prev" title="${this.__(prefix + list[keys[index - 1]])}"><i class="fa fa-chevron-left"></i><span>${this.__('page.prev')}</span></a>`;
+    result += `<a href="${langDir + keys[index - 1]}" class="article-footer-prev" title="${this.__(prefix + list[keys[index - 1]])}"><i class="fa fa-chevron-left"></i><span>${this.__('page.prev')}</span></a>`;
   }
 
   if (index < keys.length - 1) {
-    result += `<a href="${keys[index + 1]}" class="article-footer-next" title="${this.__(prefix + list[keys[index + 1]])}"><span>${this.__('page.next')}</span><i class="fa fa-chevron-right"></i></a>`;
+    result += `<a href="${langDir + keys[index + 1]}" class="article-footer-next" title="${this.__(prefix + list[keys[index + 1]])}"><span>${this.__('page.next')}</span><i class="fa fa-chevron-right"></i></a>`;
   }
 
   return result;
@@ -40,10 +43,13 @@ hexo.extend.helper.register('page_nav', function () {
 hexo.extend.helper.register('doc_sidebar', function (className) {
   const type = this.page.canonical_path.split('/')[0];
   const sidebar = this.site.data.sidebar[type];
-  const path = basename(this.path);
+  const path = this.path.split(type + '/')[1];
   let result = '';
   const self = this;
   const prefix = 'sidebar.' + type + '.';
+  const lang = this.page.lang;
+  const configLang = this.config.language;
+  const langDir = lang === configLang ? '/' + type + '/' : '/' + lang + '/' + type + '/';
 
   if (typeof sidebar === 'undefined') {
     return '';
@@ -56,7 +62,7 @@ hexo.extend.helper.register('doc_sidebar', function (className) {
       let itemClass = className + '-link';
       if (link === path) itemClass += ' current';
 
-      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
+      result += '<a href="' + langDir + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
     }
   }
 
