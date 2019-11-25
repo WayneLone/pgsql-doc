@@ -5,11 +5,11 @@ Besides the documentation, that is, this book, there are other resources about P
 
 - Wiki
 
-   The PostgreSQL wiki contains the project's FAQ (Frequently Asked Questions) list, TODO list, and detailed information about many more topics.
+   The PostgreSQL [wiki](https://wiki.postgresql.org/) contains the project's [FAQ](https://wiki.postgresql.org/wiki/Frequently_Asked_Questions) (Frequently Asked Questions) list, [TODO](https://wiki.postgresql.org/wiki/Todo) list, and detailed information about many more topics.
 
 - Web Site
 
-   The PostgreSQL web site carries details on the latest release and other information to make your work or play with PostgreSQL more productive.
+   The PostgreSQL [web site](https://www.postgresql.org/) carries details on the latest release and other information to make your work or play with PostgreSQL more productive.
 
 - Mailing Lists
 
