@@ -1,27 +1,111 @@
 ---
-title: What is PostgreSQL?
+title: PostgreSQL 10.11 Documentation
 ---
-[PostgreSQL][pgsql] is an object-relational database management system (ORDBMS) based on [POSTGRES][postgres], Version 4.2, developed at the University of California at Berkeley Computer Science Department. [POSTGRES][postgres] pioneered many concepts that only became available in some commercial database systems much later.
+***The PostgreSQL Global Development Group***
 
-[PostgreSQL][pgsql] is an open-source descendant of this original Berkeley code. It supports a large part of the SQL standard and offers many modern features:
+Copyright © 1996-2019 The PostgreSQL Global Development Group
 
-- complex queries
-- foreign keys
-- triggers
-- updatable views
-- transactional integrity
-- multiversion concurrency control
+[Legal Notice](https://www.postgresql.org/docs/10/legalnotice.html)
 
-Also, [PostgreSQL][pgsql] can be extended by the user in many ways, for example by adding new
+<hr>
 
-- data types
-- functions
-- operators
-- aggregate functions
-- index methods
-- procedural languages
+Table of Contents
 
-And because of the liberal license, [PostgreSQL][pgsql] can be used, modified, and distributed by anyone free of charge for any purpose, be it private, commercial, or academic.
-
-[pgsql]: https://www.postgresql.org/ "PostgreSQL: The World's Most Advanced Open Source Relational Database"
-[postgres]: http://db.cs.berkeley.edu/postgres.html
+* [Preface](/docs/preface/preface.html)
+  * [What is PostgreSQL?](/docs/preface/intro-whatis.html)
+  * [A Brief History of PostgreSQL](/docs/preface/history.html)
+  * [Conventions](/docs/preface/notation.html)
+  * [Further Information](/docs/preface/resources.html)
+  * [Bug Reporting Guidelines](/docs/preface/bug-reporting.html)
+* I. Tutorial
+  * Getting Started
+  * The SQL Language
+  * Advanced Features
+* II. The SQL Language
+  * SQL Syntax
+  * Data Definition
+  * Data Manipulation
+  * Queries
+  * Data Types
+  * Functions and Operators
+  * Type Conversion
+  * Indexes
+  * Full Text Search
+  * Concurrency Control
+  * Performance Tips
+  * Parallel Query
+* III. Server Administration
+  * Installation from Source Code
+  * Installation from Source Code on Windows
+  * Server Setup and Operation
+  * Server Configuration
+  * Client Authentication
+  * Database Roles
+  * Managing Databases
+  * Localization
+  * Routine Database Maintenance Tasks
+  * Backup and Restore
+  * High Availability, Load Balancing, and Replication
+  * Recovery Configuration
+  * Monitoring Database Activity
+  * Monitoring Disk Usage
+  * Reliability and the Write-Ahead Log
+  * Logical Replication
+  * Regression Tests
+* V. Client Interfaces
+  * libpq - C Library
+  * Large Objects
+  * ECPG - Embedded SQL in C
+  * The Information Schema
+* V. Server Programming
+  * Extending SQL
+  * Triggers
+  * Event Triggers
+  * The Rule System
+  * Procedural Languages
+  * PL/pgSQL - SQL Procedural Language
+  * PL/Tcl - Tcl Procedural Language
+  * PL/Perl - Perl Procedural Language
+  * PL/Python - Python Procedural Language
+  * Server Programming Interface
+  * Background Worker Processes
+  * Logical Decoding
+  * Replication Progress Tracking
+* VI. Reference
+* I. SQL Commands
+* II. PostgreSQL Client Applications
+* III. PostgreSQL Server Applications
+* VII. Internals
+  * Overview of PostgreSQL Internals
+  * System Catalogs
+  * Frontend/Backend Protocol
+  * PostgreSQL Coding Conventions
+  * Native Language Support
+  * Writing A Procedural Language Handler
+  * Writing A Foreign Data Wrapper
+  * Writing A Table Sampling Method
+  * Writing A Custom Scan Provider
+  * Genetic Query Optimizer
+  * Index Access Method Interface Definition
+  * Generic WAL Records
+  * GiST Indexes
+  * SP-GiST Indexes
+  * GIN Indexes
+  * BRIN Indexes
+  * Database Physical Storage
+  * BKI Backend Interface
+  * How the Planner Uses Statistics
+* VIII. Appendixes
+  * PostgreSQL Error Codes
+  * Date/Time Support
+  * SQL Key Words
+  * SQL Conformance
+  * Release Notes
+  * Additional Supplied Modules
+  * Additional Supplied Programs
+  * External Projects
+  * The Source Code Repository
+  * Documentation
+  * Acronyms
+* Bibliography
+* Index

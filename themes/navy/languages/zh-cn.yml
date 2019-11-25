@@ -24,6 +24,7 @@ sidebar:
   docs:
     preorder: 前序
     preface: 前言
+    intro_whatis: 什么是 PostgreSQL?
     history: PostgreSQL 简史
     notation: 约定
     resources: 进一步的信息
@@ -31,3 +32,102 @@ sidebar:
     parti: 第 I 部分
     tutorial: 教程
     tutorial_start: 从头开始
+    tutorial_sql: SQL 语言
+    tutorial_advanced: 高级特性
+    partii: 第 II 部分
+    sql: SQL 语言
+    sql_syntax: SQL 语法
+    ddl: 数据定义
+    dml: 数据操纵
+    queries: 查询
+    datatype: 数据类型
+    functions: 函数和操作符
+    typeconv: 类型转换
+    indexes: 索引
+    textsearch: 全文搜索
+    mvcc: 并发控制
+    performance_tips: 性能提示
+    partiii: 第 III 部分
+    parallel_query: 并行查询
+    admin: 服务器管理
+    installation: 从源代码安装
+    install_windows: 在 Windows 上从源代码安装
+    runtime: 服务器设置和操作
+    runtime_config: 服务器配置
+    client_authentication: 客户端认证
+    user_manag: 数据库角色
+    managing_databases: 管理数据库
+    charset: 本地化
+    maintenance: 日常数据库维护工作
+    backup: 备份和恢复
+    high_availability: 高可用、负载均衡和复制
+    recovery_config: 恢复配置
+    monitoring: 监控数据库活动
+    diskusage: 监控磁盘使用
+    wal: 可靠性和预写式日志
+    logical_replication: 逻辑复制
+    regress: 回归测试
+    partiv: 第 IV 部分
+    client_interfaces: 客户端接口
+    libpq: libpq - C 库
+    largeobjects: 大对象
+    ecpg: CPG - C 中的嵌入式 SQL
+    information_schema: 信息模式
+    partv: 第 V 部分
+    server_programming: 服务器编程
+    extend: 扩展 SQL
+    triggers: 触发器
+    event_triggers: 事件触发器
+    rules: 规则系统
+    xplang: 过程语言
+    plpgsql: PL/pgSQL - SQL 过程语言
+    pltcl: PL/Tcl - Tcl 过程语言
+    plperl: PL/Perl - Perl 过程语言
+    plpython: PL/Python - Python 过程语言
+    spi: 服务器编程接口
+    bgworker: 后台工作者进程
+    logicaldecoding: 逻辑解码
+    replication_origins: 复制进度追踪
+    partvi: 第 VI 部分
+    reference: 参考
+    sql_commands: SQL 命令
+    reference_client: PostgreSQL 客户端应用
+    reference_server: PostgreSQL 服务器应用
+    partvii: 第 VII 部分
+    internals: 内部
+    overview: PostgreSQL 内部概述
+    catalogs: 系统目录
+    protocol: 前端/后端协议
+    source: PostgreSQL 编码习惯
+    nls: 本国语言支持
+    plhandler: 编写一个过程语言处理器
+    fdwhandler: 编写一个外部数据包装器
+    tablesample_method: 编写一种表采样方法
+    custom_scan: 编写一个自定义扫描提供者
+    geqo: 遗传查询优化器
+    indexam: 索引访问方法接口定义
+    generic_wal: 通用 WAL 记录
+    gist: GiST 索引
+    spgist: SP-GiST 索引
+    gin: GIN 索引
+    brin: BRIN 索引
+    storage: 数据库物理存储
+    bki: BKI 后端接口
+    planner_stats_details: 规划器如何使用统计信息
+    partviii: 第 VIII 部分
+    appendixes: 附录
+    errcodes_appendix: PostgreSQL 错误代码
+    datetime_appendix: 日期/时间支持
+    sql_keywords_appendix: SQL 关键词
+    features: SQL 符合性
+    release: 版本说明
+    contrib: 额外提供的模块
+    contrib_prog: 额外提供的程序
+    external_projects: 外部项目
+    sourcerepo: 源代码仓库
+    docguide: 文档
+    acronyms: 首字母缩写词
+    bibliography: 参考书目
+    biblio: 参考书目
+    book_index: 索引
+    bookindex: 索引
