@@ -1,3 +1,0 @@
----
-title: Genetic Query Optimizer
----

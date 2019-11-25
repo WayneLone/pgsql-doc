@@ -1,3 +1,0 @@
----
-title: libpq - C Library
----

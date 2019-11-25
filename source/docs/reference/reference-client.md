@@ -1,3 +1,0 @@
----
-title: PostgreSQL Client Applications
----
