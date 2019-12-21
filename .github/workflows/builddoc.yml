@@ -1,4 +1,4 @@
-name: PostgrelSQL Doc
+name: PostgreSQL Doc
 
 on: [push]
 
