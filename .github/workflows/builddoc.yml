@@ -19,4 +19,4 @@ jobs:
         pip install -U sphinx
     - name: Build Document By Sphinx
       run: |
-        python sphinx-build -b html ./source ./build
+        sphinx-build -b html ./source ./build
