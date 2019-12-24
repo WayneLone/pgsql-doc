@@ -22,11 +22,13 @@ jobs:
       run: |
         sphinx-build -b html ./source ./build
     - name: Deploy Document
-      uses: appleboy/scp-action@master
       env:
         HOST: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
-        KEY: ${{ secrets.SSHKEY }}
-      with:
-        source: "./build/*"
-        target: "/home/wwwroot/pgsql-doc"
+        SSH_KEY: ${{ secrets.SSHKEY }}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$SSH_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan $HOST > ~/.ssh/known_hosts
+        chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
