@@ -32,4 +32,5 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan $HOST > ~/.ssh/known_hosts
         chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
-        scp -r ./build $USERNAME@$HOST:/home/wwwroot/pgsql-doc
+        tar -czvf pgsql-doc.tar.gz ./build/*
+        scp -vrC ./build/* $USERNAME@$HOST:/home/wwwroot/pgsql-doc
