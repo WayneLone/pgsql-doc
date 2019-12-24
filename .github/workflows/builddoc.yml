@@ -32,9 +32,7 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan $HOST > ~/.ssh/known_hosts
         chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
-        tar -czvf pgsql-doc.tar.gz ./build/*
+        tar -czvf pgsql-doc.tar.gz -C ./build .
         scp -v ./pgsql-doc.tar.gz $USERNAME@$HOST:/home/wwwroot/pgsql-doc
-        ssh $USERNAME@$HOST
-        cd /home/wwwroot/pgsql-doc
-        tar -xzvf pgsql-doc.tar.gz
+        ssh $USERNAME@$HOST 'cd /home/wwwroot/pgsql-doc && tar -xzvf pgsql-doc.tar.gz'
         
