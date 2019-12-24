@@ -2,7 +2,7 @@
 
 Dev Build: 
 
-[![Build status](https://github.com/WayneLone/pgsql-doc/workflows/PostgreSQL%20Doc/badge.svg)]()
+[![Build status](https://github.com/WayneLone/pgsql-doc/workflows/PostgreSQL%20Doc/badge.svg)](https://github.com/WayneLone/pgsql-doc/actions)
 
 详细资料请参考 <http://www.postgres.cn/docs>，由于不喜欢 DocBook 的样式，才起了这个项目（项目使用 sphinx 构建）。
 
