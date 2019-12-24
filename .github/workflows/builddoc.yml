@@ -28,5 +28,5 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         KEY: ${{ secrets.SSHKEY }}
       with:
-        source: "./build/"
-        target: "/home/wwwroot/pgsql-doc/"
+        source: "./build/*"
+        target: "/home/wwwroot/pgsql-doc"
