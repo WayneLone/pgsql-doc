@@ -1,5 +1,9 @@
 {
     "restructuredtext.confPath": "${workspaceFolder}\\source",
     "restructuredtext.builtDocumentationPath": "${workspaceFolder}\\build\\html",
-    "editor.tabSize": 3
+    "editor.tabSize": 3,
+    "restructuredtext.linter.extraArgs": [
+        "--ignore D002",
+        "--ignore D004"
+    ]
 }
