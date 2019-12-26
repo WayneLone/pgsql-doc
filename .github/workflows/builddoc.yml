@@ -21,4 +21,25 @@ jobs:
     - name: Build Document By Sphinx
       run: |
         sphinx-build -b html ./source ./build
+    - name: Set ssh & Configure git
+      env:
+        BLOG_DEPLOY_KEY: ${{ secrets.BLOG_DEPLOY_KEY }}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$BLOG_DEPLOY_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com > ~/.ssh/known_hosts
+        chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
+        git config --global user.email "waynelone@qq.com"
+        git config --global user.name "Wayne"
+    - name: Deploy to Github Pages
+      run: |
+        cd ./build
+        git init
+        git add .
+        git commit -m "deploy pgsql-doc"
+        git remote add origin https://github.com/WayneLone/waynelone.github.io.git
+        git push origin master --force
+        
+        
         
