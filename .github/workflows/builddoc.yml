@@ -39,7 +39,5 @@ jobs:
         git add .
         git commit -m "deploy pgsql-doc"
         git remote add origin https://github.com/WayneLone/waynelone.github.io.git
+        git remote -v
         git push origin master --force
-        
-        
-        
