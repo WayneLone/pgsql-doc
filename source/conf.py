@@ -62,3 +62,4 @@ html_static_path = ['_static']
 html_copy_source = False
 html_show_sourcelink = False
 html_baseurl = 'https://pgsql.dimsolo.com/'
+html_favicon = '_static/images/favicon.ico'
