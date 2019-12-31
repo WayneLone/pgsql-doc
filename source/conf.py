@@ -61,3 +61,4 @@ html_theme_options = {'sticky_navigation': True, 'navigation_depth': 4}
 html_static_path = ['_static']
 html_copy_source = False
 html_show_sourcelink = False
+html_baseurl = 'https://pgsql.dimsolo.com/'
