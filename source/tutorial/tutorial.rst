@@ -7,6 +7,7 @@ I. 教程
    :caption: 目录
 
    start/tutorial-start.rst
+   sql/tutorial-sql.rst
 
 欢迎来到 PostgreSQL 教程。下面的几章将为那些新接触 PostgreSQL、关系数据库概念和 SQL 语言的读者给出一个简单介绍。
 我们只假定读者拥有关于如何使用计算机的一般知识。读者不需要特殊的 Unix 或编程经验。

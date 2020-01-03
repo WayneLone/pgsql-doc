@@ -9,12 +9,13 @@
 =====================================
 
 由 Michael Stonebraker 教授领导的 POSTGRES 项目是由防务高级研究项目局（DARPA）、陆军研究办公室（ARO）、
-国家科学基金（NSF） 以及 ESL, Inc 共同赞助的。 POSTGRES 的实现始于 1986 年。该系统最初的概念详见 [ston86]。
-最初的数据模型定义见 [rowe87]。当时的规则系统设计在 [ston87a] 里描述。存储管理器的理论基础和体系结构在 [ston87b] 里有详细描述。
+国家科学基金（NSF） 以及 ESL, Inc 共同赞助的。 POSTGRES 的实现始于 1986 年。该系统最初的概念详见 `[ston86]`_。
+最初的数据模型定义见 `[rowe87]`_。当时的规则系统设计在 `[ston87a]`_ 里描述。存储管理器的理论基础和体系结构在 `[ston87b]`_ 里有详细描述。
 
-从那以后，POSTGRES经历了几次主要的版本更新。第一个“演示性”系统在 1987 年便可使用了，并且在 1988 年的ACM-SIGMOD大会上展出。
-在 1989 年 6 月发布了版本 1（见 [ston90a]）给一些外部的用户使用。为了回应用户对第一个规则系统（[ston89]）的批评，
-规则系统被重新设计了（[ston90b]），在 1990 年 6 月发布了使用新规则系统的版本 2。
+从那以后，POSTGRES经历了几次主要的版本更新。第一个“演示性”系统在 1987 年便可使用了，
+并且在 1988 年的 ACM-SIGMOD 大会上展出。在 1989 年 6 月发布了版本 1（见 `[ston90a]`_）给一些外部的用户使用。
+为了回应用户对第一个规则系统（`[ston89]`_）的批评，
+规则系统被重新设计了（`[ston90b]`_），在 1990 年 6 月发布了使用新规则系统的版本 2。
 版本 3 在 1991 年出现，增加了多存储管理器的支持， 并且改进了查询执行器、重写了规则系统。
 直到 Postgres95 发布前（见下文）的后续版本大多把工作都集中在移植性和可靠性上。
 
@@ -64,3 +65,11 @@ Postgres95 的开发重点放在标识和理解后端代码的现有问题上。
 PostgreSQL 的开发重点则转到了一些有争议的特性和功能上面，当然各个方面的工作同时都在进行。
 
 自那以来，PostgreSQL 发生的变化可以在 `Appendix E <https://www.postgresql.org/docs/11/release.html>`_ 中找到。
+
+.. _[ston86]: https://www.postgresql.org/docs/11/biblio.html#STON86
+.. _[rowe87]: https://www.postgresql.org/docs/11/biblio.html#ROWE87
+.. _[ston87a]: https://www.postgresql.org/docs/11/biblio.html#STON87A
+.. _[ston87b]: https://www.postgresql.org/docs/11/biblio.html#STON87B
+.. _[ston90a]: https://www.postgresql.org/docs/11/biblio.html#STON90A
+.. _[ston89]: https://www.postgresql.org/docs/11/biblio.html#STON89
+.. _[ston90b]: https://www.postgresql.org/docs/11/biblio.html#STON90B

@@ -114,7 +114,7 @@
 
 另一种方法是填写项目网站上的缺陷报告网页表格。以这种方式输入的缺陷报告会被发送到 <pgsql-bugs@lists.postgresql.org> 邮件列表。
 
-如果你的缺陷报告牵涉到安全并且你不想让它立刻变得公众可见，不要把它发送到 pgsql-bugs。安全问题可以被私下报告给 <security@lists.postgresql.org>。
+如果你的缺陷报告牵涉到安全并且你不想让它立刻变得公众可见，不要把它发送到 ``pgsql-bugs``。安全问题可以被私下报告给 <security@lists.postgresql.org>。
 
 不要将缺陷报告发送到任何一个用户邮件列表，
 例如 <pgsql-sql@lists.postgresql.org> 或 <pgsql-general@lists.postgresql.org>。
@@ -122,7 +122,7 @@
 
 另外，请不要把报告发送给开发者邮件列表 <pgsql-hackers@lists.postgresql.org>。
 这个列表是用来讨论 PostgreSQL 开发的地方，并且把缺陷报告隔离开对我们会比较好。
-如果问题需要更多的审查，我们可能选择在 pgsql-hackers 上对你的缺陷报告展开一次讨论。
+如果问题需要更多的审查，我们可能选择在 ``pgsql-hackers`` 上对你的缺陷报告展开一次讨论。
 
 如果你有一个关于文档的问题，报告它最好的地方是文档邮件列表 <pgsql-docs@postgresql.org>。请指出你对文档的哪个部分不爽。
 
